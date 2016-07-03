@@ -1,0 +1,1 @@
+ @"%C:\git\_site\nodejs\node.exe" "%C:\git\_site\nodejs\node_modules\less\bin\lessc" %*
