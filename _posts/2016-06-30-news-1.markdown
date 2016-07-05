@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "New post 1"
+date:   2016-06-30 11:29:47 -0500
+categories: news
+---
+
+First post!

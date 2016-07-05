@@ -1,0 +1,14 @@
+---
+layout: default
+headerClass: blog
+title: Blog
+subtitle: Have a questions?
+---
+
+<ul>
+  {% for news in site.categories.news %}
+  <li>
+    <a href="">{{ news.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
