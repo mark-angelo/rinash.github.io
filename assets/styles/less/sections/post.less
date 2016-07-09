@@ -31,9 +31,6 @@
             margin: 5px auto 0;
           }
 
-            cursor: pointer;
-            text-decoration: none;
-
           h2 {
             font-weight: 700;
             color: #21276d;
@@ -69,3 +66,58 @@
     }
   }
 }
+
+.post1 {
+
+  > .inner {
+    width: 1360px;
+    height: auto;
+    margin: 0 auto;
+
+    > .wrap {
+      width: 942px;
+      margin: auto;
+
+      > .post {
+        margin: 50px 0;
+        text-align: left;
+        padding: 100px;
+
+        > table > tbody > tr > td:last-child {
+          width: 150px;
+        }
+
+        > table > tbody > tr > td {
+           > .photo {
+            .date {
+              color: #999999;
+              font-size: 12px;
+              text-transform: capitalize;
+              padding-bottom: 5px;
+              margin: 5px auto 0;
+              display: block;
+            }
+
+            .author {
+              font-size: 12px;
+              margin: 0;
+              line-height: 25px;
+              font-weight: 700;
+              color: #222;
+              display: block;
+            }
+          }
+
+           > article {
+            > p {
+              padding: 10px 0;
+              color: #818892;
+              #font .nimbus(1.6em, 300, 1.5em);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

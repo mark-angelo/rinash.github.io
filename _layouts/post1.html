@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="section post1">
+  <div class="inner">
+    <div class="wrap">
+      <section class="post">
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <article>
+                  <p>{{ content }}</p>
+                </article>
+              </td>
+              <td>
+                <div class="photo">
+                  <img src="{{ "/assets/styles/images/logo.gif" | prepend: site.baseurl }}" />
+                  <span class="date">{{ page.date | date: "%b %-d, %Y" }}</span>
+                  <span class="author">Posted by {{ page.author }}</span>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+  </div>
+</div>
