@@ -16,4 +16,3 @@ formaction: "////formspree.io/mark@lanamark.com"
 # Build settings
 markdown: kramdown
 exclude: [ README.md ]
-

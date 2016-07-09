@@ -13,10 +13,8 @@
     padding: 0 10px;
     border: 1px solid #94a5d1;
     color: #72767f;
-    font-family: aktiv-grotesk,sans-serif;
-    line-height: 1.5rem;
-    font-size: 1.8rem;
-    font-weight: 300;
+    #font .aktiv(1.8rem, 300, 1.8rem);
+    line-height: 2rem;
 
     &:focus {
       outline: none;
@@ -117,8 +115,10 @@
       display: inline-block;
     }
 
-    input {
+    input,
+    select {
       margin-right: 20px;
+      height: 52px;
     }
   }
 }
