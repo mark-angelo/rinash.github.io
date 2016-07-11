@@ -9,13 +9,11 @@ layout: default
           <span class="date">{{ page.date | date: "%b %-d, %Y" }}</span>
           <h2>{{ page.postTitle }}</h2>
           <span class="author">Posted by {{ page.author }}</span>
-          <div class="photo"><img src="{{ "/assets/styles/images/logo.gif" | prepend: site.baseurl }}" /></div>
         </header>
         <article>
-          <p>{{ content }}</p>
+          {{ page.content }}
         </article>
       </section>
     </div>
   </div>
 </div>
-

@@ -10,7 +10,7 @@
             <ul class="items">
               <li><a href="{{ site.baseurl }}/features.html">Features</a></li>
               <li><a href="{{ site.baseurl }}/pricing.html">Pricing</a></li>
-              <li><a href="{{ site.baseurl }}/news.html">Blog</a></li>
+              <li><a href="{{ site.baseurl }}/blog.html">Blog</a></li>
               <li class="more last">
                 <span class="toggle">More</span>
                 <div class="hidden-links">
@@ -27,8 +27,13 @@
         </div>
       </div>
       <h1>
+        {% if page.url contains 'blog' %}
+          Blog
+          <small>Have question?</small>
+        {% else %}
           {{ page.title }}
-        <small>{{ page.subtitle }}</small>
+          <small>{{ page.subtitle }}</small>
+        {% endif %}
       </h1>
       {% if page.path == "index.html" %}
       <div class="actions">
