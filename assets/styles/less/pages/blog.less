@@ -1,20 +1,33 @@
 .blog {
 
   .inner {
-    width: 1360px;
-    height: auto;
+    width: 100%;
     margin: 0 auto;
+
+    @media (max-width: 1024px){
+      padding: 0;
+    }
 
     .wrap {
       width: 942px;
       margin: auto;
+      padding: 0;
 
-      > .post {
+      @media (max-width: 1024px){
+        width: auto;
+        padding: 0 20px;
+      }
+
+      .post {
         padding: 10px 40px;
         border: 1px solid #c9c9c9;
         background: #fafafa;
         margin: 50px 0;
         text-align: left;
+
+        @media (max-width: 768px){
+          padding: 20px;
+        }
 
         > header {
           margin: 20px 0;
@@ -60,9 +73,9 @@
             float: right;
 
             > a {
-              #font .aktiv(1.6em, 500, 48px);
+              #font .aktiv(1.6em, 500, 40px);
               width: 140px;
-              height: 52px;
+              height: 42px;
               margin: auto;
               border-radius: 3px;
               background: #F8902B;
