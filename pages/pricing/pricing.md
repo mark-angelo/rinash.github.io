@@ -3,15 +3,15 @@ type: pricing
 title: Our Packages
 prices:
   - header: Bronze
-    cost: $150
+    cost: $10,000
     features: [ Workload Assessment ]
-    units: 3
+    units: 20
   - header: Silver
-    cost: $300
+    cost: $25,000
     features: [ Workload Assessment, Hardware Asset Intelligence ]
-    units: 6
+    units: 50
   - header: Gold
-    cost: $500
-    features: [ Workload Assessment, Hardware Asset Intelligence, Collaborative CPQ, Design Automation ]
-    units: 6
+    cost: $75,000
+    features: [ Workload Assessment, Hardware Asset Intelligence, Design Automation ]
+    units: 200
 ---
